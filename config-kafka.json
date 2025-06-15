@@ -1,7 +1,7 @@
 {
     "prometheus": "127.0.0.1:8873",
     "kafka": {
-        "bootstrap.servers": "localhost:29092",
+        "bootstrap.servers": "localhost:9092",
         "statistics.interval.ms": "1000"
     },
     "dedup": {
@@ -23,14 +23,6 @@
             "slots": {
                 "client": {
                     "filter_by_commitment": null
-                }
-            },
-            "blocks": {
-                "client": {
-                    "account_include": [],
-                    "include_transactions": false,
-                    "include_accounts": false,
-                    "include_entries": false
                 }
             }
         },
